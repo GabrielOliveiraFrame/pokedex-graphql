@@ -1,0 +1,11 @@
+.content{
+  min-height: 80vh;
+}
+
+.content .card {
+  width: 300px;
+}
+
+.content .card img{
+  width: 250px;
+}

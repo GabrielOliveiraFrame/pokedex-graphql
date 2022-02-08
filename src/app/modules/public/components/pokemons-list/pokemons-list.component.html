@@ -1,0 +1,12 @@
+<div class="content p-5 bg-info d-flex justify-content-center flex-wrap">
+
+  <div *ngIf="loading" class="spinner-border text-light" role="status"></div>
+
+  <div class="card mt-5 mx-4" *ngFor="let pokemon of pokemons">
+    <img src={{pokemon.image}} class="card-img-top mx-auto" alt="{{pokemon.name}}">
+    <div class="card-body text-center">
+      <p class="card-text"><strong>{{pokemon.name}}</strong></p>
+    </div>
+  </div>
+
+</div>
